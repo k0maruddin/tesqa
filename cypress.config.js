@@ -16,7 +16,7 @@ module.exports = defineConfig({
       require('cypress-mochawesome-reporter/plugin')(on);
     },
     experimentalRunAllSpecs: true,
-    //testIsolation:false
+    testIsolation:false
   },
   //video: false
 });

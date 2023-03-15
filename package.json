@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --browser chrome --spec cypress/e2e/demoblaze/*-test.cy.js",
+    "test": "cypress run --headed --browser chrome --spec cypress/e2e/demoblaze/4.alltest.cy.js",
     "open": "cypress open"
   },
   "keywords": [],
